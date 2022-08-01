@@ -1,0 +1,20 @@
+.Add-board {
+  background-color: #ada7a7c6;
+}
+
+.Board {
+  background-color: #61a9c5;
+  color: #fff;
+}
+
+.Board,
+.Add-board {
+  min-width: 250px;
+  min-height: 100px;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 14px;
+  height: 16px;
+}

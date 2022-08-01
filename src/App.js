@@ -1,8 +1,13 @@
-import './App.css';
+import Router from "./routes";
+import {ModalContextProvider} from "./context/modalContext";
+
+import './App.scss';
 
 function App() {
   return (
-    <div></div>
+    <ModalContextProvider>
+      <Router />
+    </ModalContextProvider>
   );
 }
 
